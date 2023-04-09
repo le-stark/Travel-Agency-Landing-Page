@@ -1,0 +1,54 @@
+.background-img {
+    background-image: url(image/beach3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 44rem;
+    width: 100%;
+}
+/* position top: 60% */
+.top-60 {
+    top: 60%;
+}
+/* width 65% */
+.w-65 {
+    width: 65%;
+}
+.position-absolute-fix {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.border-top-bold {
+    border-top: 1rem solid !important ;
+}
+.card {
+    height: 37rem !important ;
+}
+
+/* responsive */
+@media (min-width: 280px) and (max-width: 480px) {
+    html {
+        font-size: 10px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    html {
+        font-size: 12px;
+    }
+}
+@media (min-width: 280px) and (max-width: 1024px) {
+  
+    .card {
+        height: 26rem !important ;
+    }
+    
+  }
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    .card {
+        height: 30rem !important ;
+    }
+    
+  }
